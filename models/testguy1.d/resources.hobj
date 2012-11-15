@@ -1,0 +1,57 @@
+obj "resources" "testguy1"
+{
+	obj "resource" "submd"
+	{
+		"string" "name" "submd.testguy1.hip"
+		"string" "vsc_path" "models/testguy1.d/submodel.d/hip.obj"
+	}
+	obj "resource" "submd"
+	{
+		"string" "name" "submd.testguy1.left_lower_arm"
+		"string" "vsc_path" "models/testguy1.d/submodel.d/left_lower_arm.obj"
+	}
+	obj "resource" "submd"
+	{	
+		"string" "name" "submd.testguy1.left_lower_leg"
+		"string" "vsc_path" "models/testguy1.d/submodel.d/left_lower_leg.obj"
+	}
+	obj "resource" "submd"
+	{
+		"string" "name" "submd.testguy1.left_upper_leg"
+		"string" "vsc_path" "models/testguy1.d/submodel.d/left_upper_leg.obj"
+	}
+	obj "resource" "submd"
+	{
+		"string" "name" "submd.testguy1.right_lower_arm"
+		"string" "vsc_path" "models/testguy1.d/submodel.d/right_lower_arm.obj"
+	}
+	obj "resource" "submd"
+	{
+		"string" "name" "submd.testguy1.right_lower_leg"
+		"string" "vsc_path" "models/testguy1.d/submodel.d/right_lower_leg.obj"
+	}
+	obj "resource" "submd"
+	{
+		"string" "name" "submd.testguy1.right_upper_arm"
+		"string" "vsc_path" "models/testguy1.d/submodel.d/right_upper_arm.obj"
+	}
+	obj "resource" "submd"
+	{
+		"string" "name" "submd.testguy1.right_upper_leg"
+		"string" "vsc_path" "models/testguy1.d/submodel.d/right_upper_leg.obj"
+	}
+	obj "resource" "submd"
+	{
+		"string" "name" "submd.testguy1.torso"
+		"string" "vsc_path" "models/testguy1.d/submodel.d/torso.obj"
+	}
+
+	obj "resource" "moves"
+	{
+		"string" "name" "moves.testguy1"
+		"string" "path_cls" "models/testguy1.d/_moves.hobj"
+		"string" "path_bin" "models/testguy1.d/_moves.bin"
+		"string" "path_cs_cls" "models/testguy1.d/coordsys.hobj"
+		"string" "path_sm_cls" "models/testguy1.d/submodel.hobj"
+	}
+}

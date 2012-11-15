@@ -1,0 +1,70 @@
+obj "meshtiles" "meshtiles0"
+{
+	obj "meshtile" "metal/metal5_1"
+	{
+		"float" "u_size" "128.0"
+		"float" "v_size" "128.0"
+		"float" "height" "4.0"
+		"string" "raw_path" "meshtiles/metal5_polys.hobj"
+	}
+
+        obj "meshtile" "metal/metal11_8"
+        {
+                "float" "u_size" "128.0"
+                "float" "v_size" "128.0"
+                "float" "height" "4.0"
+                "string" "raw_path" "meshtiles/metal11_8_polys.hobj"
+        }
+
+	obj "meshtile" "metal/metal13_2"
+        {
+                "float" "u_size" "32.0"
+                "float" "v_size" "128.0"
+                "float" "height" "2.0"
+                "string" "raw_path" "meshtiles/metal13_2_polys.hobj"
+        }
+	
+        obj "meshtile" "wall/con1_4"
+        {
+                "float" "u_size" "128.0"
+                "float" "v_size" "128.0"
+                "float" "height" "4.0"
+                "string" "raw_path" "meshtiles/con1_4_polys.hobj"
+        }
+
+        obj "meshtile" "wall/wall5_2"
+        {
+                "float" "u_size" "128.0"
+                "float" "v_size" "128.0"
+                "float" "height" "4.0"
+                "string" "raw_path" "meshtiles/wall5_polys.hobj"
+        }
+        obj "meshtile" "wall/wall5_1"
+        {
+                "float" "u_size" "128.0"
+                "float" "v_size" "128.0"
+                "float" "height" "4.0"
+                "string" "raw_path" "meshtiles/wall5_polys.hobj"
+        }
+        obj "meshtile" "metal/metal8_3"
+        {
+                "float" "u_size" "128.0"
+                "float" "v_size" "128.0"
+                "float" "height" "4.0"
+                "string" "raw_path" "meshtiles/metal8_3_polys.hobj"
+        }
+        obj "meshtile" "metal/metal11_2"
+        {
+                "float" "u_size" "128.0"
+                "float" "v_size" "128.0"
+                "float" "height" "4.0"
+                "string" "raw_path" "meshtiles/metal8_3_polys.hobj"
+        }
+	obj "meshtile" "brick/brick53_1"
+        {
+                "float" "u_size" "64.0"
+                "float" "v_size" "64.0"
+                "float" "height" "2.0"
+                "string" "raw_path" "meshtiles/brick53_1_polys.hobj"
+        }
+}

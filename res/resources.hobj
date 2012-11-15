@@ -1,0 +1,125 @@
+obj "resources" "resources1"
+{
+	obj "resource" "gltex"
+	{
+		"string" "name" "tga.test1"
+		"string" "path"	"menu/load.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "tga.test2"
+		"string" "path" "menu/save.tga"
+	}
+
+	obj "resource" "vsc"
+	{
+		"string" "name" "vsc.box1"
+		"string" "path" "models/box1.d/box3.obj"
+	}
+	
+# techdemo sky
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.sky.techdemo.bk"
+		"string" "path" "sky/techdemo/bk.tga"
+		"string" "param" "wrap_s_clamp"
+		"string" "param" "wrap_t_clamp"
+		"string" "param" "min_linear"
+	}
+	obj "resource" "gltex"
+        {
+                "string" "name" "gltex.sky.techdemo.dn"
+                "string" "path" "sky/techdemo/dn.tga"
+                "string" "param" "wrap_s_clamp"
+                "string" "param" "wrap_t_clamp"
+               "string" "param" "min_linear"
+
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "gltex.sky.techdemo.ft"
+                "string" "path" "sky/techdemo/ft.tga"
+                "string" "param" "wrap_s_clamp"
+                "string" "param" "wrap_t_clamp"
+               "string" "param" "min_linear"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "gltex.sky.techdemo.lt"
+                "string" "path" "sky/techdemo/lt.tga"
+                "string" "param" "wrap_s_clamp"
+                "string" "param" "wrap_t_clamp"
+               "string" "param" "min_linear"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "gltex.sky.techdemo.rt"
+                "string" "path" "sky/techdemo/rt.tga"
+                "string" "param" "wrap_s_clamp"
+                "string" "param" "wrap_t_clamp"
+               "string" "param" "min_linear"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "gltex.sky.techdemo.up"
+                "string" "path" "sky/techdemo/up.tga"
+                "string" "param" "wrap_s_clamp"
+                "string" "param" "wrap_t_clamp"
+               "string" "param" "min_linear"
+        }
+# end techdemo
+
+# hollow2 sky
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.sky.hollow2.bk"
+                "string" "path" "sky/hollow2/bk.tga"
+                "string" "param" "wrap_s_clamp"
+                "string" "param" "wrap_t_clamp"
+                "string" "param" "min_linear"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.sky.hollow2.dn"
+                "string" "path" "sky/hollow2/dn.tga"
+                "string" "param" "wrap_s_clamp"
+                "string" "param" "wrap_t_clamp"
+               "string" "param" "min_linear"
+
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.sky.hollow2.ft"
+                "string" "path" "sky/hollow2/ft.tga"
+                "string" "param" "wrap_s_clamp"
+                "string" "param" "wrap_t_clamp"
+               "string" "param" "min_linear"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.sky.hollow2.lt"
+                "string" "path" "sky/hollow2/lt.tga"
+                "string" "param" "wrap_s_clamp"
+                "string" "param" "wrap_t_clamp"
+               "string" "param" "min_linear"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.sky.hollow2.rt"
+                "string" "path" "sky/hollow2/rt.tga"
+                "string" "param" "wrap_s_clamp"
+                "string" "param" "wrap_t_clamp"
+               "string" "param" "min_linear"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.sky.hollow2.up"
+                "string" "path" "sky/hollow2/up.tga"
+                "string" "param" "wrap_s_clamp"
+                "string" "param" "wrap_t_clamp"
+               "string" "param" "min_linear"
+        }
+# end hollow2
+
+}

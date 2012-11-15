@@ -1,0 +1,24 @@
+obj "resources" "rocket1"
+{
+	obj "resource" "submd"
+	{
+		"string" "name" "submd.rocket1.main"
+		"string" "path_vsc" "models/rocket1.d/submodel.d/vsc.obj"
+		"string" "path_tc" "models/rocket1.d/submodel.d/test.tc"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.rocket1.skin"
+		"string" "path" "models/rocket1.d/submodel.d/skin.tga" 
+	}
+
+	obj "resource" "moves"
+	{
+		"string" "name" "moves.rocket1"
+		"string" "path_cls" "models/rocket1.d/_moves.hobj"
+		"string" "path_bin" "models/rocket1.d/_moves.bin"
+		"string" "path_cs_cls" "models/rocket1.d/coordsys.hobj"
+		"string" "path_sm_cls" "models/rocket1.d/submodel.hobj"
+	}
+}

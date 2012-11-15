@@ -1,0 +1,1110 @@
+obj "resources" "gltex_res"
+{
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.stone.rock6_1"
+		"string" "path" "textures/stone/rock6_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.yellow2_6"
+		"string" "path" "textures/light/yellow2_6.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.yellow2_5"
+		"string" "path" "textures/light/yellow2_5.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall5_14"
+		"string" "path" "textures/wall/wall5_14.arr"
+	}	
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.con6_2"
+		"string" "path" "textures/wall/con6_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal14_2"
+		"string" "path" "textures/metal/metal14_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal14_1"
+		"string" "path" "textures/metal/metal14_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.con6_1"
+		"string" "path" "textures/wall/con6_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal60_8"
+		"string" "path" "textures/metal/metal60_8.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.devel.falloff64x64"
+		"string" "path" "textures/devel/falloff64x64.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.lamp4_2"
+		"string" "path" "textures/light/lamp4_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall5_13"
+		"string" "path" "textures/wall/wall5_13.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall5_12"
+		"string" "path" "textures/wall/wall5_12.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal60_7"
+		"string" "path" "textures/metal/metal60_7.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal13_1"
+		"string" "path" "textures/metal/metal13_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal13_2"
+		"string" "path" "textures/metal/metal13_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal13_2"
+		"string" "path" "textures/metal13_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal13_1"
+		"string" "path" "textures/metal13_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.env.light51_1"
+		"string" "path" "textures/env/light51_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.con1_4"
+		"string" "path" "textures/wall/con1_4.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.floor.penta1_1"
+		"string" "path" "textures/floor/penta1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.lamp5_1"
+		"string" "path" "textures/light/lamp5_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal60_5"
+		"string" "path" "textures/metal/metal60_5.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal60_4"
+		"string" "path" "textures/metal/metal60_4.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal60_3"
+		"string" "path" "textures/metal/metal60_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.runman2_flip"
+		"string" "path" "textures/light/runman2_flip.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.lamp4_1"
+		"string" "path" "textures/light/lamp4_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.lamp3_5"
+		"string" "path" "textures/light/lamp3_5.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.lamp3_4"
+		"string" "path" "textures/light/lamp3_4.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.lamp3_3"
+		"string" "path" "textures/light/lamp3_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.lamp3_2"
+		"string" "path" "textures/light/lamp3_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.lamp3_1"
+		"string" "path" "textures/light/lamp3_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.env.lava2_1"
+		"string" "path" "textures/env/lava2_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.env.lava1_1"
+		"string" "path" "textures/env/lava1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.brick8_2"
+		"string" "path" "textures/brick/brick8_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.brick8_1"
+		"string" "path" "textures/brick/brick8_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.brick7_2"
+		"string" "path" "textures/brick/brick7_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.flag1_gslo"
+		"string" "path" "textures/brick/flag1_gslo.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.flag1_gsup"
+		"string" "path" "textures/brick/flag1_gsup.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.flag1_1lo"
+		"string" "path" "textures/brick/flag1_1lo.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.flag1_1up"
+		"string" "path" "textures/brick/flag1_1up.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.arc6_1"
+		"string" "path" "textures/brick/arc6_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.brick7_1"
+		"string" "path" "textures/brick/brick7_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall5_10"
+		"string" "path" "textures/wall/wall5_10.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall5_9"
+		"string" "path" "textures/wall/wall5_9.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall5_8"
+		"string" "path" "textures/wall/wall5_8.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall5_7"
+		"string" "path" "textures/wall/wall5_7.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall5_6"
+		"string" "path" "textures/wall/wall5_6.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.dirty1_1"
+		"string" "path" "textures/wall/dirty1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.stone.rock5_1"
+		"string" "path" "textures/stone/rock5_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall5_5"
+		"string" "path" "textures/wall/wall5_5.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall5_4"
+		"string" "path" "textures/wall/wall5_4.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall5_3"
+		"string" "path" "textures/wall/wall5_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall5_2"
+		"string" "path" "textures/wall/wall5_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall5_1"
+		"string" "path" "textures/wall/wall5_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.stone.mar2_1"
+		"string" "path" "textures/stone/mar2_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.stone.mar1_1"
+		"string" "path" "textures/stone/mar1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall4_1"
+		"string" "path" "textures/wall/wall4_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall3_1"
+		"string" "path" "textures/wall/wall3_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.brick6_1"
+		"string" "path" "textures/brick/brick6_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall2_1"
+		"string" "path" "textures/wall/wall2_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall1_8"
+		"string" "path" "textures/wall/wall1_8.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.con51_2"
+		"string" "path" "textures/wall/con51_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.con51_1"
+		"string" "path" "textures/wall/con51_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.stone.sand1_1"
+		"string" "path" "textures/stone/sand1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.stone.rock4_1"
+		"string" "path" "textures/stone/rock4_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.stone.rock3_1"
+		"string" "path" "textures/stone/rock3_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.stone.rock2_1"
+		"string" "path" "textures/stone/rock2_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.stone.rock1_1"
+		"string" "path" "textures/stone/rock1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.step1_2"
+		"string" "path" "textures/light/step1_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.step1_1"
+		"string" "path" "textures/light/step1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.con3_3"
+		"string" "path" "textures/wall/con3_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.con2_2"
+		"string" "path" "textures/wall/con2_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.con2_1"
+		"string" "path" "textures/wall/con2_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.env.water1"
+		"string" "path" "textures/env/water1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.sky.sky4"
+		"string" "path" "textures/sky/sky4.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.sky.sky3"
+		"string" "path" "textures/sky/sky3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.sky.sky2"
+		"string" "path" "textures/sky/sky2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.sky.sky1"
+		"string" "path" "textures/sky/sky1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal11_6"
+		"string" "path" "textures/metal/metal11_6.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal11_5"
+		"string" "path" "textures/metal/metal11_5.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal11_4"
+		"string" "path" "textures/metal/metal11_4.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal11_3"
+		"string" "path" "textures/metal/metal11_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal11_2"
+		"string" "path" "textures/metal/metal11_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.yellow3_1"
+		"string" "path" "textures/light/yellow3_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.yellow2_1"
+		"string" "path" "textures/light/yellow2_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal11_1"
+		"string" "path" "textures/metal/metal11_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal63_2"
+		"string" "path" "textures/metal/metal63_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal63_1"
+		"string" "path" "textures/metal/metal63_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal11_7"
+		"string" "path" "textures/metal/metal11_7.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.devel.animation"
+		"string" "path" "textures/devel/animation.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.devel.sky"
+		"string" "path" "textures/devel/sky.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.devel.default"
+		"string" "path" "textures/devel/default.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.brick53_4"
+		"string" "path" "textures/brick/brick53_4.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.rejects.bizzare51_1"
+		"string" "path" "textures/rejects/bizzare51_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.befall51_1"
+		"string" "path" "textures/wall/befall51_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.yellow2_2"
+		"string" "path" "textures/light/yellow2_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.yellow2_3"
+		"string" "path" "textures/light/yellow2_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.yellow2_4"
+		"string" "path" "textures/light/yellow2_4.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.con1_1"
+		"string" "path" "textures/wall/con1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.con1_2"
+		"string" "path" "textures/wall/con1_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.con1_3"
+		"string" "path" "textures/wall/con1_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.lamp1_3"
+		"string" "path" "textures/light/lamp1_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall1_7"
+		"string" "path" "textures/wall/wall1_7.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall1_6"
+		"string" "path" "textures/wall/wall1_6.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall1_5"
+		"string" "path" "textures/wall/wall1_5.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal60_2"
+		"string" "path" "textures/metal/metal60_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall1_4"
+		"string" "path" "textures/wall/wall1_4.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall1_3"
+		"string" "path" "textures/wall/wall1_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall1_2"
+		"string" "path" "textures/wall/wall1_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.wall1_1"
+		"string" "path" "textures/wall/wall1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.lamp2_1"
+		"string" "path" "textures/light/lamp2_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.lamp1_1"
+		"string" "path" "textures/light/lamp1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal10_1"
+		"string" "path" "textures/metal/metal10_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal9_1"
+		"string" "path" "textures/metal/metal9_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.brick5_3"
+		"string" "path" "textures/brick/brick5_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal8_2"
+		"string" "path" "textures/metal/metal8_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal8_1"
+		"string" "path" "textures/metal/metal8_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.brick5_2"
+		"string" "path" "textures/brick/brick5_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.brick5_1"
+		"string" "path" "textures/brick/brick5_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.runman2"
+		"string" "path" "textures/light/runman2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.runman1_1"
+		"string" "path" "textures/light/runman1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.red1_3"
+		"string" "path" "textures/light/red1_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.red1_2"
+		"string" "path" "textures/light/red1_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.red1_1"
+		"string" "path" "textures/light/red1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.blue1_4"
+		"string" "path" "textures/light/blue1_4.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.blue1_3"
+		"string" "path" "textures/light/blue1_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.blue1_2"
+		"string" "path" "textures/light/blue1_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.blue1_1"
+		"string" "path" "textures/light/blue1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.yellow1_2"
+		"string" "path" "textures/light/yellow1_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.yellow1_1"
+		"string" "path" "textures/light/yellow1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.beton1_3"
+		"string" "path" "textures/wall/beton1_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.rough1_2"
+		"string" "path" "textures/wall/rough1_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.wall.rough1_1"
+		"string" "path" "textures/wall/rough1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.brick53_3"
+		"string" "path" "textures/brick/brick53_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal61_1"
+		"string" "path" "textures/metal/metal61_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal62_1"
+		"string" "path" "textures/metal/metal62_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal60_1"
+		"string" "path" "textures/metal/metal60_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.brick53_2"
+		"string" "path" "textures/brick/brick53_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.brick53_1"
+		"string" "path" "textures/brick/brick53_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.brick52_1"
+		"string" "path" "textures/brick/brick52_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal59_1"
+		"string" "path" "textures/metal/metal59_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal58_4"
+		"string" "path" "textures/metal/metal58_4.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal58_3"
+		"string" "path" "textures/metal/metal58_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal58_2"
+		"string" "path" "textures/metal/metal58_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal58_1"
+		"string" "path" "textures/metal/metal58_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.astair51_1"
+		"string" "path" "textures/light/astair51_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.stair51_2"
+		"string" "path" "textures/light/stair51_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.stair51_1"
+		"string" "path" "textures/light/stair51_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.rejects.sim"
+		"string" "path" "textures/rejects/sim.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.floor.floor2"
+		"string" "path" "textures/floor/floor2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal5_6"
+		"string" "path" "textures/metal/metal5_6.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal5_5"
+		"string" "path" "textures/metal/metal5_5.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal5_4"
+		"string" "path" "textures/metal/metal5_4.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal55_3"
+		"string" "path" "textures/metal/metal55_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal55_2"
+		"string" "path" "textures/metal/metal55_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.switch1_4"
+		"string" "path" "textures/light/switch1_4.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.switch2"
+		"string" "path" "textures/light/switch2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.switch1_3"
+		"string" "path" "textures/light/switch1_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.floor.floor1"
+		"string" "path" "textures/floor/floor1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal57_2"
+		"string" "path" "textures/metal/metal57_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal57_1"
+		"string" "path" "textures/metal/metal57_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal12_2"
+		"string" "path" "textures/metal/metal12_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal12_3"
+		"string" "path" "textures/metal/metal12_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal8_3"
+		"string" "path" "textures/metal/metal8_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal11_9"
+		"string" "path" "textures/metal/metal11_9.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal12_1"
+		"string" "path" "textures/metal/metal12_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal11_8"
+		"string" "path" "textures/metal/metal11_8.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.brick1_3"
+		"string" "path" "textures/brick/brick1_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.brick1_2"
+		"string" "path" "textures/brick/brick1_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.brick.brick1_1"
+		"string" "path" "textures/brick/brick1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal51_10"
+		"string" "path" "textures/metal/metal51_10.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal56_1"
+		"string" "path" "textures/metal/metal56_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal55a_1"
+		"string" "path" "textures/metal/metal55a_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal55a_2"
+		"string" "path" "textures/metal/metal55a_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal51_9"
+		"string" "path" "textures/metal/metal51_9.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.rejects.metal54_1"
+		"string" "path" "textures/rejects/metal54_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.rejects.metal51_9"
+		"string" "path" "textures/rejects/metal51_9.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.rejects.metal51_10"
+		"string" "path" "textures/rejects/metal51_10.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.rejects.brick52_1"
+		"string" "path" "textures/rejects/brick52_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.rejects.brick51_1"
+		"string" "path" "textures/rejects/brick51_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal7_1"
+		"string" "path" "textures/metal/metal7_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal5_3"
+		"string" "path" "textures/metal/metal5_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal5_2"
+		"string" "path" "textures/metal/metal5_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal5_1"
+		"string" "path" "textures/metal/metal5_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.military.military7_2"
+		"string" "path" "textures/military/military7_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.military.military7_1"
+		"string" "path" "textures/military/military7_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.military.military6_1"
+		"string" "path" "textures/military/military6_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.military.military3a_2"
+		"string" "path" "textures/military/military3a_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.military.military3a_1"
+		"string" "path" "textures/military/military3a_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.military.military3_2"
+		"string" "path" "textures/military/military3_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.military.military3_1"
+		"string" "path" "textures/military/military3_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.military.military1_2"
+		"string" "path" "textures/military/military1_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.military.military1_1"
+		"string" "path" "textures/military/military1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal1_1"
+		"string" "path" "textures/metal/metal1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.switch1_2"
+		"string" "path" "textures/light/switch1_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.switch1_1"
+		"string" "path" "textures/light/switch1_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal55_1"
+		"string" "path" "textures/metal/metal55_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal51_2"
+		"string" "path" "textures/metal/metal51_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal53_4"
+		"string" "path" "textures/metal/metal53_4.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal53_3"
+		"string" "path" "textures/metal/metal53_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal53_2"
+		"string" "path" "textures/metal/metal53_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal53_1"
+		"string" "path" "textures/metal/metal53_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal52_2"
+		"string" "path" "textures/metal/metal52_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal52_1"
+		"string" "path" "textures/metal/metal52_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.light.switch1"
+		"string" "path" "textures/light/switch1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.env.lavaa"
+		"string" "path" "textures/env/lavaa.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal51_8"
+		"string" "path" "textures/metal/metal51_8.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal51_7"
+		"string" "path" "textures/metal/metal51_7.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal51_6"
+		"string" "path" "textures/metal/metal51_6.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal51_5"
+		"string" "path" "textures/metal/metal51_5.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal51_4"
+		"string" "path" "textures/metal/metal51_4.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal51_3"
+		"string" "path" "textures/metal/metal51_3.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal54_2"
+		"string" "path" "textures/metal/metal54_2.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.metal.metal51_1"
+		"string" "path" "textures/metal/metal51_1.arr"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.env.slimeb"
+		"string" "path" "textures/env/slimeb.arr"
+	}
+	obj "resource" "gltex"
+        {
+                "string" "name" "gltex.default"
+                "string" "path" "textures/default.arr"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "gltex.devel.cpoly"
+                "string" "path" "textures/devel/cpoly.arr"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "gltex.env.lava51_1"
+	        "string" "path" "textures/env/lava51_1.arr"
+        }
+
+	obj "resource" "gltex"
+        {
+                "string" "name" "gltex.light.lamp6_1"
+                "string" "path" "textures/light/lamp6_1.arr"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "gltex.light.orange1_1"
+                "string" "path" "textures/light/orange1_1.arr"
+        }
+	
+}

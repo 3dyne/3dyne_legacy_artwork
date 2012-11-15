@@ -1,0 +1,9 @@
+obj "moves" "moves0"
+{
+	obj "move" "base_frame.root"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "0"
+	}
+}

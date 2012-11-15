@@ -1,0 +1,148 @@
+obj "materials" "matrtials0"
+{
+
+	obj "material" "water1"
+	{
+		"VEC3D" "spec_color" "1.0 1.0 1.0"
+		"FLOAT" "spec_pow" "2.0"
+		"FLOAT" "patch_value" "10.0"
+		"VEC3D" "self_color" "1.0 1.0 1.0"
+		"VEC3D" "emit_color" "0.0 0.3 1.0"
+	}
+	obj "material" "green_slime1"
+	{
+		"VEC3D" "spec_color" "1.0 1.0 1.0"
+		"FLOAT" "spec_pow" "2.0"
+		"FLOAT" "patch_value" "20.0"
+		"VEC3D" "self_color" "1.0 1.0 1.0"
+		"VEC3D" "emit_color" "0.0 1.0 0.0"
+                "FLOAT" "no_light" "1"	
+	}
+	obj "material" "lava1"
+	{
+		"VEC3D" "spec_color" "1.0 1.0 1.0"
+		"FLOAT" "spec_pow" "2.0"
+		"FLOAT" "patch_value" "10.0"
+		"VEC3D" "self_color" "1.0 1.0 1.0"
+		"VEC3D" "emit_color" "1.0 0.3 0.0"
+	}
+	obj "material" "weak_stone"
+	{
+		"VEC3D" "spec_color" "1.0 1.0 1.0"
+		"FLOAT" "spec_pow" "3.0"
+		"FLOAT" "patch_value" "0.0"
+		"VEC3D" "self_color" "0.0 0.0 0.0"
+		"VEC3D" "emit_color" "0.0 0.0 0.0"
+	}
+	obj "material" "rusty_metal"
+	{
+		"VEC3D" "spec_color" "1.0 1.0 1.0"
+		"FLOAT" "spec_pow" "2.0"
+		"FLOAT" "patch_value" "0.0"
+		"VEC3D" "self_color" "0.0 0.0 0.0"
+		"VEC3D" "emit_color" "0.0 0.0 0.0"
+	}
+	obj "material" "brushed_alu"
+	{
+		"VEC3D" "spec_color" "1.0 1.0 1.0"
+		"FLOAT" "spec_pow" "3.0"
+		"FLOAT" "patch_value" "0.0"
+		"VEC3D" "self_color" "0.0 0.0 0.0"
+		"VEC3D" "emit_color" "0.0 0.0 0.0"
+	}
+	obj "material" "light_red1"
+	{
+		"FLOAT" "normal_scale" "8.0"
+		"VEC3D" "spec_color" "1.0 1.0 1.0"
+		"FLOAT" "spec_pow" "1.0"
+		"FLOAT" "patch_value" "20.0"
+		"VEC3D" "self_color" "1.0 1.0 1.0"
+		"VEC3D" "emit_color" "1.0 0.0 0.0"
+	}
+	obj "material" "light_orange1"
+        {
+                "FLOAT" "normal_scale" "8.0"
+                "VEC3D" "spec_color" "1.0 1.0 1.0"
+                "FLOAT" "spec_pow" "1.0"
+                "FLOAT" "patch_value" "20.0"
+                "VEC3D" "self_color" "1.0 1.0 1.0"
+                "VEC3D" "emit_color" "1.0 0.5 0.0"
+        }
+
+	obj "material" "light_blue2"
+	{
+		"VEC3D" "spec_color" "1.0 1.0 1.0"
+		"FLOAT" "spec_pow" "1.0"
+		"FLOAT" "patch_value" "20.0"
+		"VEC3D" "self_color" "1.0 1.0 1.0"
+		"VEC3D" "emit_color" "0.7 0.7 1.0"
+	}
+	obj "material" "light_blue1"
+	{
+		"VEC3D" "spec_color" "1.0 1.0 1.0"
+		"FLOAT" "spec_pow" "1.0"
+		"FLOAT" "patch_value" "20.0"
+		"VEC3D" "self_color" "1.0 1.0 1.0"
+		"VEC3D" "emit_color" "0.0 0.2 1.0"
+	}
+	obj "material" "light_cyan2"
+	{
+		"VEC3D" "spec_color" "1.0 1.0 1.0"
+		"FLOAT" "spec_pow" "1.0"
+		"FLOAT" "patch_value" "20.0"
+		"VEC3D" "self_color" "1.0 1.0 1.0"
+		"VEC3D" "emit_color" "0.02 0.78 0.45"
+	}
+	obj "material" "light_cyan1"
+	{
+		"VEC3D" "spec_color" "1.0 1.0 1.0"
+		"FLOAT" "spec_pow" "1.0"
+		"FLOAT" "patch_value" "20.0"
+		"VEC3D" "self_color" "1.0 1.0 1.0"
+		"VEC3D" "emit_color" "0.14 0.8 0.56"
+	}
+	obj "material" "light_yellow3"
+	{
+		"VEC3D" "spec_color" "1.0 1.0 1.0"
+		"FLOAT" "spec_pow" "1.0"
+		"FLOAT" "patch_value" "5.0"
+		"VEC3D" "self_color" "1.0 1.0 1.0"
+		"VEC3D" "emit_color" "1.0 1.0 0.8"
+	}
+	obj "material" "light_yellow2"
+	{
+		"FLOAT" "normal_scale" "8.0"
+		"VEC3D" "spec_color" "1.0 1.0 1.0"
+		"FLOAT" "spec_pow" "1.0"
+		"FLOAT" "patch_value" "40.0"
+		"VEC3D" "self_color" "1.0 1.0 1.0"
+		"VEC3D" "emit_color" "0.5 0.5 0.4"
+                "FLOAT" "no_light" "1"
+	}
+	obj "material" "light_yellow1"
+	{
+		"FLOAT" "normal_scale" "8.0"
+		"VEC3D" "spec_color" "1.0 1.0 1.0"
+		"FLOAT" "spec_pow" "1.0"
+		"FLOAT" "patch_value" "25.0"
+		"VEC3D" "self_color" "1.0 1.0 1.0"
+		"VEC3D" "emit_color" "1.0 1.0 0.8"
+	}
+	obj "material" "nolight"
+	{
+		"VEC3D" "spec_color" "1.0 1.0 1.0"
+		"FLOAT" "spec_pow" "1.0"
+		"FLOAT" "patch_value" "0.0"
+		"VEC3D" "self_color" "1.0 1.0 1.0"
+		"VEC3D" "emit_color" "0.0 0.0 0.0"
+		"FLOAT" "no_light" "1"
+	}
+	obj "material" "default"
+	{
+		"VEC3D" "spec_color" "1.0 1.0 1.0"
+		"FLOAT" "spec_pow" "1.0"
+		"FLOAT" "patch_value" "0.0"
+		"VEC3D" "self_color" "0.0 0.0 0.0"
+		"VEC3D" "emit_color" "0.0 0.0 0.0"
+	}
+}

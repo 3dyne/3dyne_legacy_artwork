@@ -1,0 +1,8 @@
+obj "model" "model1"
+{
+	obj "coordsys" "none"
+	{
+		"string" "parent" "none"
+		"string" "name" "root"
+	}
+}

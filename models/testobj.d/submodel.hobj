@@ -1,0 +1,14 @@
+obj "submodels" "submodels0"
+{
+	obj "submodel" "none"
+	{
+		"string" "coordsys" "root"
+		"vec3d" "origin" "0 0 0"
+		"vec3d" "scale" "64 64 64"
+		"float" "lat" "0"
+		"float" "lon" "0"
+		"float" "yaw" "0"
+		"string" "res_submd" "submd.testobj.box"
+	}
+}
+

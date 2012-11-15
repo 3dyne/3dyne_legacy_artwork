@@ -1,0 +1,235 @@
+obj "resources" "fx_res"
+{
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.expl1"
+                "string" "path" "fx/smoke/expl1.tga"
+
+        }
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.fx.star1"
+		"string" "path" "fx/misc/star1.tga"
+	}
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.smoke2"
+                "string" "path" "fx/smoke/smoke2.tga"
+        }
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.fx.falloff16x16"
+		"string" "path" "fx/falloff/falloff16x16.tga"
+	}
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.halo1"
+	        "string" "path" "fx/halo/halo1.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.halo2"
+                "string" "path" "fx/halo/halo2.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.halo4"
+                "string" "path" "fx/halo/halo4.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.halo7"
+                "string" "path" "fx/halo/halo7.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.green1"
+                "string" "path" "fx/halo/green1.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.green2"
+                "string" "path" "fx/halo/green2.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.blue1"
+                "string" "path" "fx/halo/blue1.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.blue2"
+                "string" "path" "fx/halo/blue2.tga"
+        }
+
+        obj "resource" "tga"
+        {
+                "string" "name" "tga.fx.falloff64x64"
+                "string" "path" "fx/falloff/falloff64x64.tga"
+        }
+        obj "resource" "tga"
+        {
+                "string" "name" "tga.fx.falloff32x32"
+                "string" "path" "fx/falloff/falloff32x32.tga"
+        }
+	obj "resource" "tga"
+        {
+                "string" "name" "tga.fx.falloff16x16"
+                "string" "path" "fx/falloff/falloff16x16.tga"
+        }	
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.fx.cross_red"
+		"string" "path" "fx/misc/cross_red.tga"
+	}
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.trans_test"
+                "string" "path" "fx/misc/trans_test.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.trans_test2"
+                "string" "path" "fx/misc/trans_test2.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.blood1"
+                "string" "path" "fx/misc/blood1.tga"
+        }
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.fx.env_test1"
+		"string" "path" "/fx/envmaps/env_test1.tga"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.fx.env_test2"
+		"string" "path" "/fx/envmaps/env_test2.tga"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.fx.cooper_smooth"
+		"string" "path" "/fx/envmaps/cooper_smooth.tga"
+	}
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.gold_smooth"
+                "string" "path" "/fx/envmaps/gold_smooth.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.detail1"
+                "string" "path" "/fx/detailmaps/detail1.tga"
+        }
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.fx.arc1"
+		"string" "path" "/fx/electric/arc1.tga"
+	}
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.orange_flash1"
+                "string" "path" "/fx/electric/orange_flash1.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.fx.ygreen_flash1"
+                "string" "path" "/fx/electric/ygreen_flash1.tga"
+        }
+	
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.fx.fire1"
+		"string" "path" "fx/smoke/fire1.tga"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.fx.fire2"
+		"string" "path" "fx/smoke/fire2.tga"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.fx.fire1a"
+		"string" "path" "fx/smoke/fire1a.tga"
+	}
+	obj "resource" "lump"
+	{
+		"string" "name" "lump.field.flame1"
+		"string" "path" "fx/field_bin/field_flame1.bin"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.fx.vision"
+		"string" "path" "fx/misc/vision.tga"
+	}
+		
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.fx.lightsign1_text"
+		"string" "path" "textures/fx/lightsign1_text.tga"
+	}
+
+		obj "resource" "gltex"
+	{
+		"string" "name" "gltex.fx.lightsign1_fg"
+		"string" "path" "textures/fx/lightsign1_fg.tga"
+	}
+
+#
+# smilies
+#	
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.smilie.nice"
+		"string" "path" "fx/smilies/smilie2.tga"
+	}
+
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.smilie.pain"
+                "string" "path" "fx/smilies/smilie5.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.smilie.dead"
+                "string" "path" "fx/smilies/smilie1.tga"
+        }
+
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.smilie.attack"
+                "string" "path" "fx/smilies/smilie3.tga"
+        }
+		
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.smilie.jump"
+                "string" "path" "fx/smilies/smilie4.tga"
+        }
+
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.smilie.tribal_dead1"
+                "string" "path" "fx/smilies/smilie6_1.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.smilie.tribal_dead2"
+                "string" "path" "fx/smilies/smilie6_2.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.smilie.tribal_dead3"
+                "string" "path" "fx/smilies/smilie6_3.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.smilie.tribal_dead4"
+                "string" "path" "fx/smilies/smilie6_4.tga"
+        }
+
+
+}

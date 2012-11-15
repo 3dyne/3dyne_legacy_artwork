@@ -1,0 +1,349 @@
+obj "menu" "menu1"
+{
+	obj "menupage" "main"
+	{
+		string onescape "menupage none"
+		int active 0
+		int entrynum 5
+#		class "shcom_pic" "255"
+#		{
+#			"string" "pic" "menu.tex.main_title"
+#			int posx 192
+#			int posy 352
+#			int height 128
+#		}
+		obj "shcom_pic" "0"
+                {
+                        "string" "pic" "menu.tex.new_game"
+                        "int" "posx" "200"
+                        "int" "posy" "320"
+                        "int" "height" "32"
+                	string command "menupage newgame" 
+		}
+		obj "shcom_pic" "1"
+                {
+                        "string" "pic" "menu.tex.network"
+                        "int" "posx" "200"
+                        "int" "posy" "288"
+                        "int" "height" "32"
+                        string command "menupage multi"
+                }
+		obj "shcom_pic" "2"
+                {
+                        "string" "pic" "menu.tex.setup"
+                        "int" "posx" "200"
+                        "int" "posy" "256"
+                        "int" "height" "32"
+                        string command "menupage setup"
+                }
+		obj "shcom_pic" 3
+		{
+			string pic "menu.tex.readthis"
+			int posx 200
+			int posy 224
+			int height 32
+			string command "menupage readthis"	
+		}
+
+		obj "shcom_pic" "4"
+                {
+                        "string" "pic" "menu.tex.quit"
+                        "int" "posx" "200"
+                        "int" "posy" "188"
+                        "int" "height" "32"
+                        string command "menupage quit"
+                }
+	
+	}
+	obj menupage newgame
+	{
+		string onescape "menupage main"
+		int active 0
+		int entrynum 4
+		obj shcom_pic 255
+		{
+			string pic menu.tex.main_title
+			int posx 192
+			int posy 352
+			int height 128
+		}
+
+		obj shcom_pic 0
+		{
+			string pic menu.tex.test01
+			string command "menupage none\let gc_map test8\startsingle"
+			int posx 200
+			int posy 320
+			int height 32
+		}
+
+		obj shcom_pic 1
+                {
+                        string pic menu.tex.test02
+                        string command "menupage none\let gc_map world/test4.d\let fake_level world/test4.d/fake\worldspring\stopsound\set snd_musname 2"
+                        int posx 200
+                        int posy 288
+                        int height 32
+                }
+
+		obj lineedit 2
+		{
+			string text "direct level:"
+			string varname "gc_map"
+			int posx 200
+			int posy 256
+		}
+
+		obj shcom_text 3
+		{
+			string text "start direct level"
+			string command "startsingle"
+			int posx 200
+			int posy 240
+		}
+	}
+	obj menupage multi
+	{
+		string onescape "menupage main"
+		int active 0
+		int entrynum 2
+	
+		obj shcom_text 0
+		{
+			string text "start server"
+			string command "menupage multi_server"
+			int posx 200
+			int posy 320
+		}
+		obj shcom_text 1 
+                {
+                        string text "join game"
+                        string command "menupage multi_client"
+                        int posx 200
+                        int posy 304
+                }
+	}
+	obj menupage multi_server
+	{
+		string onescape "menupage multi"
+		int active 0
+		int entrynum 3
+
+		obj lineedit 0
+		{
+			string text "map:"
+                        string varname "gc_map"
+                        int posx 200
+        	        int posy 320
+		}
+
+		obj lineedit 1
+		{
+			string text "port:"
+			string varname "gc_localport"
+			int posx 200
+			int posy 288
+		}
+
+		obj shcom_text 2
+		{
+                        string text "start server"
+                        string command "startlocalgame"
+                        int posx 200
+                        int posy 272
+                }
+
+			
+	}
+
+	obj menupage multi_client
+	{
+		string onescape "menupage multi"
+		int active 0
+		int entrynum 3
+
+		obj lineedit 0
+		{
+			string text "server:"
+			string varname "gc_remoteaddr"
+			int posx 200
+			int posy 320
+		}
+		obj lineedit 1
+		{
+			string text "server port:"
+			string varname "gc_remoteport"
+			int posx 200
+			int posy 288
+		}
+		obj shcom_text 2
+		{
+			string text "connect!"
+			string command "startremotegame"
+			int posx 200
+			int posy 240
+		}
+	}
+
+	obj menupage setup
+	{
+		string onescape "menupage main"
+		int active 0
+		int entrynum 9
+		obj slider 0
+		{
+			int posx 384
+			int posy 400
+			float step "0.2"
+			string text "mouse speed:" 
+			string varname "gc_mousescale"
+		}
+
+		obj slider 1
+                {
+                        int posx 384
+                        int posy 368
+                        float step "0.1"
+                        string text "sound volume:"
+                        string varname "snd_sfxvol"
+                }
+
+		obj slider 2
+                {
+                        int posx 384
+                        int posy 336
+                        float step "0.1"
+                        string text "csurface lod:"
+                        string varname "r_lod"
+                }
+		obj slider 3
+                {
+                        int posx 384
+                        int posy 304
+                        float step "0.1"
+                        string text "snd errval:"
+                        string varname "snd_errval"
+                }
+		obj yesno 4
+		{
+			int posx 384
+			int posy 288
+			string text "invert mouselook"
+			string varname "gc_invmouse"
+		}
+		obj slider 5
+                {
+                        int posx 384
+                        int posy 256
+                        float step "0.02"
+                        string text "echo delay :"
+                        string varname "snd_echodelay"
+                }
+
+		obj slider 6
+                {
+                        int posx 384
+                        int posy 224
+                        float step "0.1"
+                        string text "echo volume :"
+                        string varname "snd_echovol"
+                }
+	
+		obj slider 7
+                {
+                        int posx 384
+                        int posy 192
+                        float step "0.1"
+                        string text "echo feedback :"
+                        string varname "snd_echofb"
+                }
+		obj yesno 8
+                {
+                        int posx 384
+                        int posy 176
+                        string text "sound echo:"
+                        string varname "snd_doecho"
+                }
+	}
+
+	obj menupage readthis
+	{
+		string onescape "menupage main"
+		int active 1
+		int entrynum 2
+		obj shcom_text 1
+		{
+			string text ""
+			string command "menupage main"
+			int posx 16
+			int posy 0
+		}
+		obj pic 255
+                {
+                        string pic gltex.metal.metal11_1
+                        int posx 0
+                        int posy 0
+                        int width 640
+                        int height 480
+                }
+	}
+
+	obj menupage quit
+	{
+		string onescape "menupage main"
+		int active 1
+		int entrynum 2
+		obj pic 258
+		{
+			string pic menu.tex.main_title
+                        int posx 192
+                        int posy 352
+			int width 0
+                        int height 0
+		}
+
+		obj shcom_text 257
+		{
+			string text "really quit?"
+			int posx 200
+			int posy 336
+		}
+
+		obj pic 256
+		{
+			string pic misc.tex.endscreen
+			int posx 0
+			int posy 0
+			int width 0
+			int height 0
+		}
+		
+		obj pic 255
+                {
+                        string pic gltex.wall.con1_4
+                        int posx 0
+                        int posy 0
+                        int width 640
+                        int height 480
+                }
+
+		obj shcom_text 0
+		{
+			string text "yes"
+			string command "quit"
+			int posx 200
+			int posy 310
+
+		}
+
+		obj shcom_text 1
+		{
+			string text "no"
+			string command "menupage main"
+			int posx 200
+			int posy 294
+		}
+
+	}
+			
+}

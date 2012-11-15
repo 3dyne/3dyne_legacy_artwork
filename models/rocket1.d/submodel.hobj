@@ -1,0 +1,16 @@
+obj "submodels" "submodels1"
+{
+	obj "submodel" "none"
+	{
+		"float" "yaw" "0.000000"
+		"float" "longitude" "0.000000"
+		"float" "latitude" "0.000000"
+		"vec3d" "scale" "-0.500000 0.500000 0.500000"
+		"vec3d" "origin" "0.000000 0.000000 0.000000"
+		"string" "res_submd" "submd.rocket1.main"
+		"string" "res_gltex" "gltex.rocket1.skin"
+		"string" "videoscape_path" "./submodel.d/vsc.obj"
+		"string" "coordsys_name" "root"
+		"string" "name" "rocket1"
+	}
+}

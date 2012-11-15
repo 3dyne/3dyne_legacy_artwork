@@ -1,0 +1,24 @@
+obj "resources" "testobj"
+{
+	obj "resource" "submd"
+	{
+		"string" "name" "submd.testobj.sphere"
+		"string" "vsc_path" "models/testobj.d/sphere.obj"
+	}
+
+	obj "resource" "submd"
+	{
+		"string" "name" "submd.testobj.box"
+		"string" "vsc_path" "models/testobj.d/box3.obj"
+	}
+
+	obj "resource" "moves"
+	{
+		"string" "name" "moves.testobj"
+		"string" "path_cls" "models/testobj.d/_moves.hobj"
+		"string" "path_bin" "models/testobj.d/_moves.bin"
+		"string" "path_cs_cls" "models/testobj.d/coordsys.hobj"
+		"string" "path_sm_cls" "models/testobj.d/submodel.hobj"
+	}
+}
+

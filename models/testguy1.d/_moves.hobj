@@ -1,0 +1,159 @@
+obj "moves" "moves0"
+{
+	obj "move" "run1_lower_part.root"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "38400"
+	}
+	obj "move" "run1_lower_part.left_knee_joint"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "36864"
+	}
+	obj "move" "run1_lower_part.none"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "35328"
+	}
+	obj "move" "run1_lower_part.left_hip_joint"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "33792"
+	}
+	obj "move" "run1_lower_part.right_hip_joint"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "32256"
+	}
+	obj "move" "run1_lower_part.right_knee_join"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "30720"
+	}
+	obj "move" "run1_upper_part.right_elbow"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "29184"
+	}
+	obj "move" "run1_upper_part.right_shoulder"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "27648"
+	}
+	obj "move" "run1_upper_part.left_elbow"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "26112"
+	}
+	obj "move" "run1_upper_part.left_shoulder"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "24576"
+	}
+	obj "move" "base_frame.root"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "23040"
+	}
+	obj "move" "base_frame.right_elbow"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "21504"
+	}
+	obj "move" "base_frame.right_shoulder"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "19968"
+	}
+	obj "move" "base_frame.left_elbow"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "18432"
+	}
+	obj "move" "base_frame.left_shoulder"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "16896"
+	}
+	obj "move" "base_frame.left_knee_joint"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "15360"
+	}
+	obj "move" "base_frame.left_hip_joint"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "13824"
+	}
+	obj "move" "base_frame.lumber"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "12288"
+	}
+	obj "move" "base_frame.right_hip_joint"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "10752"
+	}
+	obj "move" "base_frame.right_knee_joint"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "9216"
+	}
+	obj "move" "base_frame.right_ankle_joint"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "7680"
+	}
+	obj "move" "base_frame.neck"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "6144"
+	}
+	obj "move" "base_frame.left_wrist"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "4608"
+	}
+	obj "move" "base_frame.right_wrist"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "3072"
+	}
+	obj "move" "base_frame.head"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "1536"
+	}
+	obj "move" "base_frame.left_ankle_joint"
+	{
+		"int" "param_num" "6"
+		"int" "step_num" "64"
+		"int" "ofs" "0"
+	}
+}

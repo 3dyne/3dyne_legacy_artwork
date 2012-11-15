@@ -1,0 +1,142 @@
+obj "resources" "sound_res"
+{
+# test
+	obj "resource" "sound"
+	{
+		"string" "name" "sound.test1"
+		"string" "path" "sound/clank.wav"
+	}
+
+	obj "resource" "sound"
+        {
+                "string" "name" "sound.shot"
+                "string" "path" "sound/shot.wav"
+        }
+
+# environment
+	obj "resource" "sound"
+        {
+                "string" "name" "sound.env.test1"
+                "string" "path" "sound/env/wind2.wav"
+        }
+
+	obj "resource" "sound"
+        {
+                "string" "name" "sound.env.fire1"
+                "string" "path" "sound/env/fire1.wav"
+        }
+
+	obj "resource" "sound"
+        {
+                "string" "name" "sound.env.wind1"
+                "string" "path" "sound/env/wind1.wav"
+        }
+
+       obj "resource" "sound"
+        {
+                "string" "name" "sound.env.windblow1"
+                "string" "path" "sound/env/windblow1.wav"
+        }
+	
+	obj "resource" "sound"
+        {
+                "string" "name" "sound.env.squall1"
+                "string" "path" "sound/env/squall1.wav"
+        }
+
+	obj "resource" "sound"
+        {
+                "string" "name" "sound.env.squall2"
+                "string" "path" "sound/env/squall2.wav"
+        }
+
+# menu	
+	obj "resource" "sound"
+        {
+                "string" "name" "menu.sound.enter"
+                "string" "path" "sound/menu/enter.wav"
+        }
+
+        obj "resource" "sound"
+        {
+                "string" "name" "menu.sound.escape"
+                "string" "path" "sound/menu/escape.wav"
+        }
+
+	obj "resource" "sound"
+        {
+                "string" "name" "menu.sound.scroll"
+                "string" "path" "sound/menu/escape.wav"
+        }
+
+	obj "resource" "sound"
+        {
+                "string" "name" "menu.sound.slidermove"
+                "string" "path" "sound/menu/slidermove.wav"
+        }
+
+# console
+	obj "resource" "sound"
+        {
+                "string" "name" "console.sound.char"
+                "string" "path" "sound/console/char.wav"
+        }
+
+	obj "resource" "sound"
+        {
+                "string" "name" "console.sound.fail"
+                "string" "path" "sound/console/fail.wav"
+        }
+
+# misc
+	obj "resource" "sound"
+        {
+                "string" "name" "sound.sinus1"
+                "string" "path" "sound/sinus.wav"
+        }
+	obj "resource" "sound"
+        {
+                "string" "name" "sound.sinus2"
+                "string" "path" "sound/sinus2.wav"
+        }
+	obj "resource" "sound"
+        {
+                "string" "name" "sound.sinus3"
+                "string" "path" "sound/sinus3.wav"
+        }
+	obj "resource" "sound"
+        {
+                "string" "name" "sound.sinus4"
+                "string" "path" "sound/sinus4.wav"
+        }
+	obj "resource" "sound"
+        {
+                "string" "name" "sound.jingle"
+                "string" "path" "sound/jingle1_mono.wav"
+        }
+# music	
+	obj "resource" "mikmod"
+	{
+		"string" "name" "mikmod.1"
+                "string" "path" "frog.mod"
+        }
+
+	obj "resource" "mikmod"
+        {
+                "string" "name" "mikmod.2"
+                "string" "path" "./rebels.mod"
+        }
+
+	obj "resource" "lump"
+        {
+                "string" "name" "lump.mp3.1"
+                "string" "path" "music/test1.mp3"
+        }
+
+	obj "resource" "lump"
+        {
+                "string" "name" "mp3.test1"
+                "string" "path" "music/test1.mp3"
+        }
+
+}

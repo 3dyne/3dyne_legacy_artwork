@@ -1,0 +1,83 @@
+obj "model" "model1"
+{
+	obj "coordsys" "none"
+	{
+		"string" "parent" "neck"
+		"string" "name" "head"
+	}
+	obj "coordsys" "none"
+	{
+		"string" "parent" "right_elbow"
+		"string" "name" "right_wrist"
+	}
+	obj "coordsys" "none"
+	{
+		"string" "parent" "right_shoulder"
+		"string" "name" "right_elbow"
+	}
+	obj "coordsys" "none"
+	{
+		"string" "parent" "neck"
+		"string" "name" "right_shoulder"
+	}
+	obj "coordsys" "none"
+	{
+		"string" "parent" "left_elbow"
+		"string" "name" "left_wrist"
+	}
+	obj "coordsys" "none"
+	{
+		"string" "parent" "left_shoulder"
+		"string" "name" "left_elbow"
+	}
+	obj "coordsys" "none"
+	{
+		"string" "parent" "neck"
+		"string" "name" "left_shoulder"
+	}
+	obj "coordsys" "none"
+	{
+		"string" "parent" "lumber"
+		"string" "name" "neck"
+	}
+	obj "coordsys" "none"
+	{
+		"string" "parent" "root"
+		"string" "name" "lumber"
+	}
+	obj "coordsys" "none"
+	{
+		"string" "parent" "right_knee_joint"
+		"string" "name" "right_ankle_joint"
+	}
+	obj "coordsys" "none"
+	{
+		"string" "parent" "right_hip_joint"
+		"string" "name" "right_knee_joint"
+	}
+	obj "coordsys" "none"
+	{
+		"string" "parent" "root"
+		"string" "name" "right_hip_joint"
+	}
+	obj "coordsys" "none"
+	{
+		"string" "parent" "left_knee_joint"
+		"string" "name" "left_ankle_joint"
+	}
+	obj "coordsys" "none"
+	{
+		"string" "parent" "left_hip_joint"
+		"string" "name" "left_knee_joint"
+	}
+	obj "coordsys" "none"
+	{
+		"string" "parent" "root"
+		"string" "name" "left_hip_joint"
+	}
+	obj "coordsys" "none"
+	{
+		"string" "parent" "none"
+		"string" "name" "root"
+	}
+}

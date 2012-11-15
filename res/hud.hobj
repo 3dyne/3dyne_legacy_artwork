@@ -1,0 +1,363 @@
+obj "resources" "hud_resources"
+{
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.main_title"
+		"string" "path" "menu/title1.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.new_game"
+		"string" "path" "menu/new_game.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.load"
+		"string" "path" "menu/load.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.save"
+		"string" "path" "menu/save.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.setup"
+		"string" "path" "menu/setup.tga"
+	}
+	obj "resource" "gltex"
+        {
+                "string" "name" "menu.tex.network"
+                "string" "path" "menu/multiplayer.tga"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "menu.tex.readthis"
+                "string" "path" "menu/readthis.tga"
+        }
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.quit"
+		"string" "path" "menu/quit.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.gloom"
+		"string" "path" "menu/gloom.tga"
+	}
+	
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.sliderbg"
+		"string" "path" "menu/sliderbg.tga"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.slidergrip_on"
+		"string" "path" "menu/slidergrip_on.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.slidergrip_off"
+		"string" "path" "menu/slidergrip_off.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.lineeditbg"
+		"string" "path" "menu/lineeditbg.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "misc.tex.logo32"
+		"string" "path" "misc/tux.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "misc.tex.font16"
+		"string" "path" "misc/font16_5.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.font40"
+		"string" "path" "menu/font40_3.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.font40bump"
+		"string" "path" "menu/font40bump_2.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "misc.tex.load"
+		"string" "path" "misc/disk.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "misc.tex.compile"
+		"string" "path" "misc/compile.tga"
+	}	
+	obj "resource" "gltex"
+	{
+		"string" "name" "misc.tex.light"
+		"string" "path" "misc/light.tga"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "misc.tex.busy"
+		"string" "path" "misc/busy.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.bigcurs00"
+		"string" "path" "menu/cursor00.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.bigcurs01"
+		"string" "path" "menu/cursor01.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.bigcurs02"
+		"string" "path" "menu/cursor02.tga"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "menu.tex.bigcurs03"
+		"string" "path" "menu/cursor03.tga"
+	}
+	obj "resource" "gltex"
+        {
+                "string" "name" "menu.tex.mouse_cursor"
+                "string" "path" "menu/mouse_cursor.tga"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "menu.tex.menubar_0"
+                "string" "path" "menu/menubar_0.tga"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "menu.tex.menubar_1"
+                "string" "path" "menu/menubar_1.tga"
+        }
+
+	obj "resource" "gltex"
+        {
+                "string" "name" "menu.tex.menubar_2"
+                "string" "path" "menu/menubar_2.tga"
+        }
+
+	obj "resource" "gltex"
+        {
+                "string" "name" "menu.tex.checkbox32_off"
+                "string" "path" "menu/checkbox32_off.tga"
+        }
+
+	obj "resource" "gltex"
+        {
+                "string" "name" "menu.tex.checkbox32_on"
+                "string" "path" "menu/checkbox32_on.tga"
+        }
+
+	obj "resource" "gltex"
+        {
+                "string" "name" "menu.tex.spinbox_lt_on"
+                "string" "path" "menu/spinbox_lt_on.tga"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "menu.tex.spinbox_lt_off"
+                "string" "path" "menu/spinbox_lt_off.tga"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "menu.tex.spinbox_rt_on"
+                "string" "path" "menu/spinbox_rt_on.tga"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "menu.tex.spinbox_rt_off"
+                "string" "path" "menu/spinbox_rt_off.tga"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "misc.tex.conback"
+                "string" "path" "misc/conback.tga"
+        }
+	obj "resource" "gltex"
+	{
+		"string" "name" "misc.tex.conback1"
+		"string" "path" "misc/conback1.tga"
+	}	
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "misc.tex.conback2"
+		"string" "path" "misc/conback2.tga"
+	}
+	obj "resource" "gltex"
+	{
+		"string" "name" "misc.tex.title"
+		"string" "path" "misc/titlepic2.jpg"
+	}
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "misc.tex.extra_power"
+		"string" "path" "misc/extra_power.tga"
+	}
+
+	obj "resource" "gltex"
+        {
+                "string" "name" "misc.tex.extra_vote"
+                "string" "path" "misc/extra_vote.tga"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "misc.tex.extra_font"
+                "string" "path" "misc/extra_font.tga"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "misc.tex.extra_color"
+                "string" "path" "misc/extra_color.tga"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "menu.tex.test01"
+                "string" "path" "menu/test1.tga"
+        }
+	
+	obj "resource" "gltex"
+        {
+                "string" "name" "menu.tex.test02"
+                "string" "path" "menu/test2.tga"
+        }
+	
+	obj "resource" "gltex"
+	{
+		"string" "name" "misc.tex.endscreen"
+		"string" "path" "misc/dd_end01.tga"    
+	}
+
+	obj "resource" "gltex"
+        {
+                "string" "name" "gltex.hud.health"
+                "string" "path" "hud/i_health.tga"
+        }
+
+	
+	obj "resource" "gltex"
+        {
+                "string" "name" "gltex.hud.back"
+                "string" "path" "hud/back0.tga"
+        }
+
+	obj "resource" "gltex"
+        {
+                "string" "name" "misc.tex.levels.default"
+                "string" "path" "misc/conback.tga"
+        }
+
+	obj "resource" "gltex"
+        {
+                "string" "name" "misc.tex.levels.dm6"
+                "string" "path" "misc/levels/dm6.jpg"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "misc.tex.levels.test7"
+                "string" "path" "misc/levels/test7.jpg"
+        }
+
+	obj "resource" "gltex"
+        {
+                "string" "name" "misc.tex.levels.title1"
+                "string" "path" "misc/levels/title1.jpg"
+        }
+	obj "resource" "gltex"
+        {
+                "string" "name" "gltex.hud.0"
+                "string" "path" "hud/i_num0.tga"
+        }
+
+	obj "resource" "gltex"
+	{
+		"string" "name" "gltex.hud.1"
+		"string" "path" "hud/i_num1.tga"
+	}
+	
+	obj "resource" "gltex"
+        {
+                "string" "name" "gltex.hud.2"
+                "string" "path" "hud/i_num2.tga"
+        }
+
+	obj "resource" "gltex"
+        {
+                "string" "name" "gltex.hud.3"
+                "string" "path" "hud/i_num3.tga"
+        }
+
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.hud.4"
+                "string" "path" "hud/i_num4.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.hud.5"
+                "string" "path" "hud/i_num5.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.hud.6"
+                "string" "path" "hud/i_num6.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.hud.7"
+                "string" "path" "hud/i_num7.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.hud.8"
+                "string" "path" "hud/i_num8.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.hud.9"
+                "string" "path" "hud/i_num9.tga"
+        }
+        obj "resource" "gltex"
+        {
+                "string" "name" "gltex.hud.minus"
+                "string" "path" "hud/crosshair01.tga"
+        }
+
+	obj "resource" "gltex"
+        {
+                "string" "name" "gltex.hud.crosshair01"
+                "string" "path" "hud/crosshair01.tga"
+        }
+}
+

@@ -1,0 +1,689 @@
+obj "multilayers" "multilayers0"
+{
+
+	obj "multilayer" "env/slime1_1"
+	{
+		"int" "depthmask" "0"	
+
+		obj "xlayer" "1"
+		{
+			"string" "sfactor" "GL_ONE"
+			"string" "dfactor" "GL_ZERO"
+			"string" "gltex_res" "gltex.env.slimeb"
+			obj "job" "ModulateColor"
+			{
+				"int" "stylenum" "1"
+				"vec3d" "color1" "0.7 0.7 0.7"
+				"vec3d" "color2" "1 1 1"
+				"string" "style1" "ABCDEFGHJKLMNOPONMLKJHGFEDCB"
+			}
+			obj "job" "ShiftTexCoord"
+			{
+				"string" "u_style" "sin"
+				"string" "v_style" "cos"
+				"float" "u_timediv" "1000.0"
+				"float" "v_timediv" "1000.0"
+				"float" "u_scale" "16.0"
+				"float" "v_scale" "16.0"
+			}
+		}
+
+		obj "layer" "3"
+		{
+			"vec3d" "color" "0 1.0 0"
+			"string" "sfactor" "GL_SRC_ALPHA"
+			"string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+			"string" "gltex_res" "gltex.fx.trans_test"
+                        obj "job" "ModulateAlpha"
+                        {
+				"string" "style" "PPPOOONNNMMMLLLKKKJJJIIIJJJKKKLLLMMMNNNOOOPPPOOONNNMMMLLLKKKJJJIIIJJJKKKLLLMMMNNNOOO"	
+                        }
+			obj "job" "ShiftTexCoord"
+			{
+				"string" "u_style" "sin"
+				"string" "v_style" "cos"
+				"float" "u_timediv" "2000.0"
+				"float" "v_timediv" "1000.0"
+				"float" "u_scale" "16.0"
+				"float" "v_scale" "32.0"
+			}
+		}
+
+                obj "layer" "2"
+                {
+			"vec3d" "color" "0 1.0 0"
+                        "string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+                        "string" "gltex_res" "gltex.fx.trans_test2"
+                        obj "job" "ModulateAlpha"
+                        {
+                                "string" "style" "LLLKKKJJJIIIJJJKKKLLLMMMNNNOOOPPPOOONNNMMMLLLKKKJJJIIIJJJKKKLLLMMMNNNOOOPPPOOONNNMMM"
+                        }
+			obj "job" "ShiftTexCoord"
+			{
+				"string" "u_style" "sin"
+				"string" "v_style" "cos"
+				"float" "u_timediv" "1000.0"
+				"float" "v_timediv" "2000.0"
+				"float" "u_scale" "-16.0"
+				"float" "v_scale" "8.0"
+			}
+                }
+	}
+
+	obj "multilayer" "odd/penta1_1"
+	{
+		obj "layer" "1"
+		{
+			"string" "sfactor" "GL_ONE"
+			"string" "dfactor" "GL_ZERO"
+			"string" "gltex_res" "gltex.odd.penta_back"
+		}
+		obj "layer" "2"
+		{
+			"string" "sfactor" "GL_SRC_ALPHA"
+			"string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+			"string" "gltex_res" "gltex.odd.penta_marble"			
+		}
+		obj "layer" "4096"
+		{
+			"string" "sfactor" "GL_SRC_ALPHA"
+			"string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+			"string" "gltex_res" "gltex.odd.penta_glow"
+			obj "job" "ModulateAlpha"
+                        {
+#                                "string" "style" "AAAABBBBCCCCDDDDEEEEFFFFGGGGHHHHGGGGFFFFEEEEDDDDCCCCBBBB"
+                                "string" "style" "PPOONNMMLLKKJJIIHHGGFFEEDDCCBBAABBCCDDEEFFGGHHIIJJKKLLMMNNOO"
+                        }
+		}
+	}
+
+        obj "multilayer" "odd/penta1_2"
+        {
+                obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_ONE"
+                        "string" "dfactor" "GL_ZERO"
+                        "string" "gltex_res" "gltex.odd.penta_back"
+			obj "job" "ShiftTexCoord"
+			{
+				"string" "u_style" "none"
+				"string" "v_style" "none"
+				"float" "u_timediv" "1000.0"
+				"float" "v_timediv" "1000.0"
+				"float" "u_scale" "128.0"
+				"float" "v_scale" "0.0"
+			}
+                }
+                obj "layer" "2"
+                {
+                        "string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+                        "string" "gltex_res" "gltex.odd.penta_marble"
+                }
+        }
+
+	obj "multilayer" "skx_ml/clouds1_1"
+	{
+		"int" "depthmask" "0"
+		"int" "pass" "2"
+		obj "layer" "1"
+		{
+			"string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+			"string" "gltex_res" "gltex.skx.clouds1"	
+			"float" "alpha" "0.5"
+			obj "job" "ShiftTexCoord"
+                        {
+                                "string" "u_style" "none"
+                                "string" "v_style" "cos"
+                                "float" "u_timediv" "5000.0"
+                                "float" "v_timediv" "5000.0"
+                                "float" "u_scale" "256.0"
+                                "float" "v_scale" "256.0"
+                        }
+			
+		}
+	}
+
+	obj "multilayer" "skx_ml/clouds1_2"
+	{
+		"int" "depthmask" "0"
+		"int" "pass" "2"
+		obj "layer" "1"
+		{
+			"string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+			"string" "gltex_res" "gltex.skx.clouds1"	
+			"float" "alpha" "0.5"
+			obj "job" "ShiftTexCoord"
+                        {
+                                "string" "u_style" "none"
+                                "string" "v_style" "none"
+                                "float" "u_timediv" "10000.0"
+                                "float" "v_timediv" "1000.0"
+                                "float" "u_scale" "256.0"
+                                "float" "v_scale" "0.0"
+                        }
+			
+		}
+	}
+
+	obj "multilayer" "skx_ml/clouds2_1"
+        {
+                obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_ONE"
+                        "string" "dfactor" "GL_ZERO"
+                        "string" "gltex_res" "gltex.skx.clouds2"
+                        obj "job" "ShiftTexCoord"
+                        {
+                                "string" "u_style" "none"
+                                "string" "v_style" "none"
+                                "float" "u_timediv" "10000.0"
+                                "float" "v_timediv" "1000.0"
+                                "float" "u_scale" "256.0"
+                                "float" "v_scale" "0.0"
+                        }
+                }
+        }
+
+
+	obj "multilayer" "skx_ml/clouds3_1"
+	{
+		"int" "depthmask" "0"
+		"int" "pass" "2"
+		obj "layer" "1"
+		{
+			"string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+			"string" "gltex_res" "gltex.skx.clouds3"	
+			"float" "alpha" "0.4"
+			obj "job" "ShiftTexCoord"
+                        {
+                                "string" "u_style" "sin"
+                                "string" "v_style" "cos"
+                                "float" "u_timediv" "10000.0"
+                                "float" "v_timediv" "10000.0"
+                                "float" "u_scale" "256.0"
+                                "float" "v_scale" "256.0"
+                        }
+			
+		}
+	}
+
+	obj "multilayer" "skx_ml/clouds3_2"
+	{
+		"int" "depthmask" "0"
+		"int" "pass" "2"
+		obj "layer" "1"
+		{
+			"string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+			"string" "gltex_res" "gltex.skx.clouds3"	
+			"float" "alpha" "0.7"
+			obj "job" "ShiftTexCoord"
+                        {
+                                "string" "u_style" "sin"
+                                "string" "v_style" "cos"
+                                "float" "u_timediv" "10000.0"
+                                "float" "v_timediv" "10000.0"
+                                "float" "u_scale" "256.0"
+                                "float" "v_scale" "256.0"
+                        }
+			
+		}
+	}
+
+	obj "multilayer" "flags_ml/burned2"
+        {
+                "int" "depthmask" "0"
+                obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+                        "string" "gltex_res" "gltex.flags.burned2"
+                }
+        }
+	
+	obj "multilayer" "skx_ml/head1_1"
+        {
+                "int" "depthmask" "0"
+                obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_ONE"
+                        "string" "dfactor" "GL_ONE"
+                        "string" "gltex_res" "gltex.skx.head1"
+                }
+        }	
+
+
+	obj "multilayer" "skx_ml/flare1_1"
+        {
+                "int" "depthmask" "0"
+                obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_ONE"
+                        "string" "dfactor" "GL_ONE"
+                        "string" "gltex_res" "gltex.skx.flare1_1"
+                }
+        }
+	
+	obj "multilayer" "skx_ml/flare2_1"
+        {
+                "int" "depthmask" "0"
+                obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_ONE"
+                        "string" "dfactor" "GL_ONE"
+                        "string" "gltex_res" "gltex.skx.flare2"
+                }
+        }
+
+	obj "multilayer" "skx_ml/moon1"
+        {
+                "int" "depthmask" "0"
+                obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_ONE"
+                        "string" "dfactor" "GL_ONE"
+                        "string" "gltex_res" "gltex.skx.moon1"
+                }
+        }	
+
+	obj "multilayer" "fx_ml/lightsign1_1"
+	{
+		obj "layer" "1"
+		{
+			"string" "sfactor" "GL_ONE"
+			"string" "dfactor" "GL_ZERO"
+			"string" "gltex_res" "gltex.fx.lightsign1_text"			
+			obj "job" "ShiftTexCoord"
+			{
+				"string" "u_style" "none"
+				"string" "v_style" "none"
+				"float" "u_timediv" "1.0"
+				"float" "v_timediv" "10000.0"
+				"float" "u_scale" "0.0"
+				"float" "v_scale" "-256.0"
+			}	
+		}
+		obj "layer" "2"
+		{
+						
+			"string" "sfactor" "GL_SRC_ALPHA"
+			"string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+			"string" "gltex_res" "gltex.fx.lightsign1_fg"	
+
+		}
+	}
+
+	obj "multilayer" "metal_ml/metal7_1"
+	{
+		"class" "layer" "1"
+		{
+			"string" "sfactor" "GL_ONE"
+			"string" "dfactor" "GL_ZERO"
+			"string" "gltex_res" "gltex.metal.metal7_1"			
+		}
+
+		"class" "layer" "2"
+		{
+			"string" "sfactor" "GL_SRC_ALPHA"
+			"string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+			"string" "gltex_res" "gltex.fx.env_test1"
+			obj "job" "EnvMap"
+			{
+				"float" "scale" "16.0"
+				"float" "offset" "128.0"
+			}	
+		}			
+	}
+
+	obj "multilayer" "metal_ml/metal60_9"
+	{
+		obj "layer" "1"
+		{
+			"string" "sfactor" "GL_ONE"
+			"string" "dfactor" "GL_ZERO"
+			"string" "gltex_res" "gltex.metal_ml.metal60_9_back"			
+		}
+		obj "layer" "2"
+		{
+			"string" "sfactor" "GL_SRC_ALPHA"
+			"string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+			"string" "gltex_res" "gltex.fx.env_test1"
+			obj "job" "EnvMap"
+			{
+				"float" "scale" "16.0"
+				"float" "offset" "128.0"
+			}
+		}
+		obj "layer" "3"
+		{
+			"string" "sfactor" "GL_SRC_ALPHA"
+			"string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+			"string" "gltex_res" "gltex.metal_ml.metal60_9_front"	
+		}
+	}
+
+        obj "multilayer" "metal_ml/metal60_10"
+        {
+                obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_ONE"
+                        "string" "dfactor" "GL_ZERO"
+                        "string" "gltex_res" "gltex.metal_ml.metal60_9_back"
+                }
+                obj "layer" "2"
+                {
+                        "string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+                        "string" "gltex_res" "gltex.fx.cooper_smooth"
+                        obj "job" "EnvMap"
+                        {
+                                "float" "scale" "16.0"
+                                "float" "offset" "128.0"
+                        }
+                }
+        }
+
+        obj "multilayer" "stone_ml/mar1_1"
+        {
+                obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_ONE"
+                        "string" "dfactor" "GL_ZERO"
+                        "string" "gltex_res" "gltex.stone.mar1_1"
+                }
+                obj "layer" "2"
+                {
+                        "string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+                        "string" "gltex_res" "gltex.fx.env_test2"
+                        obj "job" "EnvMap"
+                        {
+                                "float" "scale" "16.0"
+                                "float" "offset" "128.0"
+                        }
+                }
+        }
+
+        obj "multilayer" "wall_ml/wall5_2"
+        {
+                obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_ONE"
+                        "string" "dfactor" "GL_ZERO"
+                        "string" "gltex_res" "gltex.wall.wall5_2"
+                }
+                obj "layer" "2"
+                {
+                        "string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+                        "string" "gltex_res" "gltex.fx.gold_smooth"
+                        obj "job" "EnvMap"
+                        {
+                                "float" "scale" "16.0"
+                                "float" "offset" "128.0"
+                        }
+                }
+        }	
+
+	obj "multilayer" "metal_ml/metal13_1"
+	{
+		obj "layer" "1"
+		{
+			"string" "sfactor" "GL_ONE"
+			"string" "dfactor" "GL_ZERO"
+			"string" "gltex_res" "gltex.metal.metal13_1"			
+		}
+		obj "layer" "2"
+		{
+			"string" "sfactor" "GL_SRC_ALPHA"
+			"string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+			"string" "gltex_res" "gltex.fx.cooper_smooth"
+			obj "job" "EnvMap"
+			{
+				"float" "scale" "16.0"
+				"float" "offset" "128.0"
+			}
+		}
+	}
+
+	obj "multilayer" "electric_ml/orange_flash1"
+	{
+                obj "layer" "4096"
+                {
+                        "string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+                        "string" "gltex_res" "gltex.fx.orange_flash1"
+                        obj "job" "ShiftTexCoord"
+                        {
+                                "string" "u_style" "none"
+                                "string" "v_style" "none"
+                                "float" "u_timediv" "200.0"
+                                "float" "v_timediv" "1000.0"
+                                "float" "u_scale" "256.0"
+                                "float" "v_scale" "256.0"
+                        }
+                }
+		
+	}
+
+        obj "multilayer" "electric_ml/mix_flash1"
+        {
+                obj "layer" "4096"
+                {
+                        "string" "sfactor" "GL_ONE"
+                        "string" "dfactor" "GL_ZERO"
+                        "string" "gltex_res" "gltex.fx.orange_flash1"
+                        obj "job" "ShiftTexCoord"
+                        {
+                                "string" "u_style" "none"
+                                "string" "v_style" "none"
+                                "float" "u_timediv" "200.0"
+                                "float" "v_timediv" "1000.0"
+                                "float" "u_scale" "0.0"
+                                "float" "v_scale" "256.0"
+                        }
+                }
+                obj "layer" "4097"
+                {
+                        "string" "sfactor" "GL_ONE"
+                        "string" "dfactor" "GL_ONE"
+                        "string" "gltex_res" "gltex.fx.ygreen_flash1"
+                        obj "job" "ShiftTexCoord"
+                        {
+                                "string" "u_style" "none"
+                                "string" "v_style" "none"
+                                "float" "u_timediv" "1000.0"
+                                "float" "v_timediv" "2000.0"
+                                "float" "u_scale" "0.0"
+                                "float" "v_scale" "256.0"
+                        }
+                }
+
+        }
+
+
+
+	obj "multilayer" "glass_ml/glass1_1"
+	{
+		"int" "depthmask" "0"	
+
+		obj "layer" "4096"
+		{
+			"string" "sfactor" "GL_SRC_ALPHA"
+			"string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+			"string" "gltex_res" "gltex.fx.arc1"
+			obj "job" "ShiftTexCoord"
+			{
+				"string" "u_style" "none"
+				"string" "v_style" "none"
+				"float" "u_timediv" "200.0"
+				"float" "v_timediv" "1000.0"
+				"float" "u_scale" "256.0"
+				"float" "v_scale" "256.0"
+			}			
+		}
+		obj "layer" "1"
+		{
+			"string" "sfactor" "GL_SRC_ALPHA"
+			"string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+			"string" "gltex_res" "gltex.fx.env_test1"
+			obj "job" "EnvMap"
+			{
+				"float" "scale" "16.0"
+				"float" "offset" "128.0"
+			}
+		}
+	}
+
+        obj "multilayer" "glass_ml/glass1_2"
+        {
+                "int" "depthmask" "0"
+
+		obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+                        "string" "gltex_res" "gltex.glass.glass1"
+                }
+
+                obj "layer" "2"
+                {
+                        "string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+                        "string" "gltex_res" "gltex.fx.cooper_smooth"
+                        obj "job" "EnvMap"
+                        {
+                                "float" "scale" "16.0"
+                                "float" "offset" "128.0"
+                        }
+                }
+        }
+
+	obj "multilayer" "brick_ml/brick53_1"
+	{
+		obj "layer" "1"
+		{
+                        "string" "sfactor" "GL_ONE"
+                        "string" "dfactor" "GL_ZERO"
+                        "string" "gltex_res" "gltex.brick.brick53_1"			
+		}
+
+		obj "layer" "2"
+		{
+			"vec2d"	"scale" "0.3 0.3"
+                        "string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+                        "string" "gltex_res" "gltex.fx.detail1"
+                        obj "job" "DetailMap"
+			{
+				"float" "max_alpha" "0.15"
+				"float" "fade_dist" "64.0"
+			}
+		}
+	}
+
+	obj "multilayer" "env/test"
+	{
+#		"int" "depthmask" "0"	
+
+		obj "mesh" "none"
+		{
+			obj "job" "SurfaceDeform"
+			{
+				"string" "style" "fake_y"
+			}
+		}
+		
+		obj "layer" "1"
+		{
+                        "string" "sfactor" "GL_ONE"
+                        "string" "dfactor" "GL_ZERO"
+                        "string" "gltex_res" "gltex.env.lava51_1"			
+		}
+	}
+
+        obj "multilayer" "flags/fake_z"
+        {
+                "int" "depthmask" "0"
+
+                obj "mesh" "none"
+                {
+                        obj "job" "SurfaceDeform"
+                        {
+                                "string" "style" "fake_z"
+                        }
+                }
+
+                obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+                        "string" "gltex_res" "gltex.flags.burned2"                
+                }
+        }
+
+
+	obj "multilayer" "metal_ml/round1_1"
+	{
+		"int" "depthmask" "0"
+		obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+                        "string" "gltex_res" "gltex.metal_ml.round1_1"
+                }
+        }
+
+	obj "multilayer" "skx_ml/skx4_ft"
+        {
+                "int" "depthmask" "0"
+                obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+                        "string" "gltex_res" "gltex.sky.sky4_ft"
+                }
+        }
+
+	obj "multilayer" "skx_ml/skx4_rt"
+        {
+                "int" "depthmask" "0"
+                obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+                        "string" "gltex_res" "gltex.sky.sky4_rt"
+                }
+        }
+
+	obj "multilayer" "skx_ml/skx4_bk"
+        {
+                "int" "depthmask" "0"
+                obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+                        "string" "gltex_res" "gltex.sky.sky4_bk"
+                }
+        }
+
+	obj "multilayer" "skx_ml/skx4_lf"
+        {
+                "int" "depthmask" "0"
+                obj "layer" "1"
+                {
+                        "string" "sfactor" "GL_SRC_ALPHA"
+                        "string" "dfactor" "GL_ONE_MINUS_SRC_ALPHA"
+                        "string" "gltex_res" "gltex.sky.sky4_lf"
+                }
+        }
+
+
+}
+
+
